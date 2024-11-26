@@ -1,0 +1,15 @@
+.marquee-container {
+    width: 100%;
+    height: calc(100vh - 168px); 
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+.danmu {
+    position: relative;
+    white-space: nowrap;
+    font-size: 24px;
+    color: black;
+    opacity: 1;
+}

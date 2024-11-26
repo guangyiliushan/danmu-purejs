@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书管理系统</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header-nav">
+        <header>
+            <h1>图书管理系统</h1>
+        </header>
+        <nav>
+            <ul id="nav">
+                <li><a href="#" onclick="showMainPage()">首页</a></li>
+                <li><a href="#" onclick="openAddBookPage()">添加图书</a></li>
+                <li><a href="#" onclick="showMyBooks()">我的图书</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main id="main">
+        <div>
+            <h1 id="show">welcome!</h1>
+        </div>
+    </main>
+    <footer>
+        <div id="timeNow"></div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="styles.js"></script>
+    <script src="getNowTime.js"></script>
+</body>
+
+</html>
